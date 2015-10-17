@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Selecciona los Presidentes : "/>
+
+    <CheckBox
+        android:id="@+id/chkPresidente1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Jose de la Riva Aguero"/>
+
+    <CheckBox
+        android:id="@+id/chkPresidente2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Jose Bernardo de Tagle"/>
+
+    <CheckBox
+        android:id="@+id/chkPresidente3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mariscal Jose de la Mar"/>
+
+    <CheckBox
+        android:id="@+id/star1"
+        style="?android:attr/starStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General Agustin Gamarra"/>
+
+    <CheckBox
+        android:id="@+id/star2"
+        style="?android:attr/starStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General Jose Luis de Orbegoso"/>
+
+    <CheckBox
+        android:id="@+id/star3"
+        style="?android:attr/starStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Felipe Santiago Salaverry"/>
+</LinearLayout>
